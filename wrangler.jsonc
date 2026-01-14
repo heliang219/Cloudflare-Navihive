@@ -4,7 +4,7 @@
  */
 {
     "$schema": "node_modules/wrangler/config-schema.json",
-    "name": "navihive",
+    "name": "mynav",
     "main": "worker/index.ts",
     "compatibility_date": "2025-04-05",
     "compatibility_flags": ["nodejs_compat"],  // 必须启用 Node.js 兼容
@@ -24,11 +24,12 @@
     ],
     "vars": {
         "AUTH_ENABLED": "true",
-        "AUTH_USERNAME": "admin",
+        "AUTH_USERNAME": "heliang",
         "AUTH_PASSWORD": "$2y$10$EPURsSZBWIMqbDzj93o.NecSlGPDxx0B3qu.xG.yzyjolkHrmMwjy",
         "AUTH_SECRET": "GxYmND8XSj3pK6lXk9gObqhOHm0np4v54FCk1XckmvvBSQiJe4GREe2Xd1QPDhQx"
     }
 }
+
 
 
 
